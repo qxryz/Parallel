@@ -1,0 +1,12 @@
+node_modules/
+.runtime/
+dist/
+release/
+artifacts/
+design/
+.parallel-data/
+.parallel-install.json
+*.tsbuildinfo
+scripts/__pycache__/
+.DS_Store
+*.log

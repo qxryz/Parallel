@@ -1,0 +1,44 @@
+.lw-import-error {
+  max-width: 520px;
+  margin: 14px 0 0 !important;
+  padding: 9px 12px;
+  border: 1px solid #efc8c4;
+  border-radius: 7px;
+  background: #fff5f4;
+  color: #a43f36 !important;
+  font-size: 11px !important;
+  line-height: 1.45;
+}
+
+.lw-import-banner {
+  position: fixed;
+  top: 70px;
+  left: 50%;
+  z-index: 40;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  max-width: min(620px, 80vw);
+  transform: translateX(-50%);
+  padding: 9px 10px 9px 13px;
+  border: 1px solid #efc8c4;
+  border-radius: 8px;
+  background: #fff5f4;
+  box-shadow: 0 8px 24px rgba(85, 35, 31, .12);
+  color: #a43f36;
+  font-size: 11px;
+}
+
+.lw-import-banner button {
+  width: 24px;
+  height: 24px;
+  border: 0;
+  border-radius: 5px;
+  background: transparent;
+  display: grid;
+  place-items: center;
+}
+
+.lw-import-banner button:hover {
+  background: #f6dedb;
+}
